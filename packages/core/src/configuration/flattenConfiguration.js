@@ -41,7 +41,7 @@ const normalizeModule = (module: any) => {
     module = module.default;
   }
 
-  debug("normalizeModule", module);
+  // debug("normalizeModule", module);
 
   return module;
 };
