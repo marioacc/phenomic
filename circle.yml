@@ -11,6 +11,8 @@ dependencies:
     - docs/.screenshots
     - docs/public/showcase/entry
     - ~/.cache/yarn
+  pre:
+    - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --1.0.1
   override:
     - yarn --version
     - yarn
